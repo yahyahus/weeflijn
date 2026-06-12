@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Philosophy from "./components/Philosophy";
-import Collection from "./components/Collection";
+import Hospitality from "./components/Hospitality";
+import Lookbook from "./components/Lookbook";
 import Contact from "./components/Contact";
 import Logo from "./components/Logo";
 
@@ -21,8 +22,11 @@ function App() {
         {/* Brand values and history */}
         <Philosophy />
 
-        {/* Collection & Weave options */}
-        <Collection />
+        {/* Hospitality & Wholesale */}
+        <Hospitality />
+
+        {/* Textile Lookbook Grid */}
+        <Lookbook />
 
         {/* Lead capture & business card */}
         <Contact />
@@ -47,7 +51,7 @@ function App() {
               Quick Links
             </h4>
             <ul className="space-y-2">
-              {["Home", "Philosophy", "Collection", "Contact"].map((link) => (
+              {["Home", "Philosophy", "Hospitality", "Lookbook", "Contact"].map((link) => (
                 <li key={link}>
                   <a
                     href={`#${link.toLowerCase()}`}

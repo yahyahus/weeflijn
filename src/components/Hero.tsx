@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import heroImg from "../assets/image00005.jpg";
 
 export const Hero: React.FC = () => {
   return (
@@ -21,17 +22,15 @@ export const Hero: React.FC = () => {
           </div>
 
           <p className="font-sans text-brand-charcoal/70 text-base md:text-lg leading-relaxed max-w-md font-light">
-            Weef Lijn crafts bespoke, premium textiles that define sophistication. 
-            Every weave is a signature of elegance, designed for those who appreciate 
-            the fine art of luxury living.
+            Weeflijn is a trusted supplier of hotel‑grade textiles crafted for comfort, durability and long‑lasting performance. We combine commercial‑grade strength with refined design, helping hospitality brands deliver a consistently premium guest experience.
           </p>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pt-4">
             <a
-              href="#collection"
+              href="#lookbook"
               className="group flex items-center gap-3 px-8 py-4 bg-brand-charcoal text-brand-cream hover:bg-brand-red transition-all duration-300 font-sans text-xs font-semibold tracking-widest uppercase shadow-md"
             >
-              Explore Collection
+              Explore Lookbook
               <ArrowRight size={14} className="transition-transform duration-300 group-hover:translate-x-2" />
             </a>
             <a
@@ -45,16 +44,16 @@ export const Hero: React.FC = () => {
           {/* Micro metrics/details */}
           <div className="grid grid-cols-3 gap-8 pt-8 border-t border-[#e2dfd8]/60 max-w-md">
             <div>
-              <p className="font-serif text-2xl font-light text-brand-charcoal">100%</p>
-              <p className="font-sans text-[10px] tracking-wider text-brand-taupe uppercase mt-1">Natural Fibers</p>
+              <p className="font-serif text-2xl font-light text-brand-charcoal">Control</p>
+              <p className="font-sans text-[10px] tracking-wider text-brand-taupe uppercase mt-1">End-to-End</p>
             </div>
             <div>
-              <p className="font-serif text-2xl font-light text-brand-charcoal">Bespoke</p>
-              <p className="font-sans text-[10px] tracking-wider text-brand-taupe uppercase mt-1">Craftsmanship</p>
+              <p className="font-serif text-2xl font-light text-brand-charcoal">Premium</p>
+              <p className="font-sans text-[10px] tracking-wider text-brand-taupe uppercase mt-1">Guest Experience</p>
             </div>
             <div>
-              <p className="font-serif text-2xl font-light text-brand-charcoal">EU</p>
-              <p className="font-sans text-[10px] tracking-wider text-brand-taupe uppercase mt-1">Sourced & Spun</p>
+              <p className="font-serif text-2xl font-light text-brand-charcoal">Commercial</p>
+              <p className="font-sans text-[10px] tracking-wider text-brand-taupe uppercase mt-1">Grade Strength</p>
             </div>
           </div>
         </div>
@@ -68,7 +67,7 @@ export const Hero: React.FC = () => {
             {/* Main textile close-up */}
             <div className="w-full h-full overflow-hidden">
               <img
-                src="/hero_textile.png"
+                src={heroImg}
                 alt="Weef Lijn Luxury Textile close up"
                 className="w-full h-full object-cover transition-transform duration-[2s] cubic-bezier(0.16, 1, 0.3, 1) group-hover:scale-105"
                 loading="eager"
@@ -81,10 +80,10 @@ export const Hero: React.FC = () => {
                 Signature Collection
               </p>
               <p className="font-serif text-lg text-brand-charcoal mt-1">
-                Linen & Silk Blend
+                Premium hotel collection
               </p>
               <p className="font-sans text-[11px] text-brand-charcoal/60 mt-1 leading-relaxed">
-                Hand-selected flax fibers blended with fine mulberry silk.
+                Hand-selected Selection of Long staple cotton fibre.
               </p>
             </div>
           </div>

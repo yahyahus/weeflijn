@@ -22,7 +22,8 @@ export const Navbar: React.FC = () => {
   const navLinks = [
     { label: "Home", href: "#home" },
     { label: "Philosophy", href: "#philosophy" },
-    { label: "Collection", href: "#collection" },
+    { label: "Hospitality", href: "#hospitality" },
+    { label: "Lookbook", href: "#lookbook" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -37,7 +38,7 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* Brand Logo */}
         <a href="#home" className="flex items-center transition-transform duration-300 hover:scale-[1.02]">
-          <Logo className="h-10 md:h-12 w-auto" />
+          <Logo className="h-12 md:h-16 w-auto" />
         </a>
 
         {/* Desktop Navigation Links */}

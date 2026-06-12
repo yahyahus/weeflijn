@@ -12,13 +12,13 @@ export const Philosophy: React.FC = () => {
       icon: <Sparkles className="text-brand-sand w-6 h-6" />,
       title: "Uncompromising Quality",
       description:
-        "We selectively source only the finest raw linen, premium mulberry silk, and organic cotton. Our meticulous inspection guarantees a soft hand-feel, structural durability, and a refined drape.",
+        "We selectively source only the Long staple cotton fibre. Our meticulous inspection guarantees a soft hand-feel, structural durability, and a refined drape.",
     },
     {
       icon: <Leaf className="text-brand-taupe w-6 h-6" />,
-      title: "Conscious Crafting",
+      title: "Ethical Luxury, Sustainably Crafted",
       description:
-        "Luxury should be kind. Our production practices prioritize sustainable farming, non-toxic dyes, and zero-waste yarn-spinning to preserve environmental health and pure products.",
+        "Sustainability is at the heart of Weeflijn. We use responsibly sourced materials and environmentally conscious production methods to create textiles that are gentle on the planet and exceptional for your guests. Our commitment to ethical manufacturing ensures every item delivers both luxury and long‑lasting performance.",
     },
   ];
 

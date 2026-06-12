@@ -201,6 +201,8 @@ export const Contact: React.FC = () => {
                       backgroundSize: "1em"
                     }}
                   >
+                    <option value="wholesale">Wholesale & Bulk Hotel Orders</option>
+                    <option value="bandb">B&B & Guest House Supplies</option>
                     <option value="linen">Artisanal Linen Collection</option>
                     <option value="silk">Crimson Mulberry Silk</option>
                     <option value="blend">The Heritage Blend (Linen & Silk)</option>
